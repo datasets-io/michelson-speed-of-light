@@ -1,0 +1,55 @@
+{
+  "name": "datasets-michelson-speed-of-light",
+  "version": "0.0.0",
+  "description": "Dataset from Michelson's speed of light measurements in 1879.",
+  "author": {
+    "name": "Athan Reines",
+    "email": "kgryte@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "kgryte@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coverage -- -R spec",
+    "codecov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/codecov/coverage --report lcovonly -- -R spec && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/datasets-io/michelson-speed-of-light.git"
+  },
+  "keywords": [
+    "datasets.io",
+    "datasets-io",
+    "datasets",
+    "dataset",
+    "data",
+    "sample",
+    "michelson",
+    "speed",
+    "light",
+    "physics",
+    "science",
+    "morley"
+  ],
+  "bugs": {
+    "url": "https://github.com/datasets-io/michelson-speed-of-light/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "3.x.x",
+    "codecov.io": "^0.1.5",
+    "istanbul": "^0.3.0",
+    "jshint": "2.x.x",
+    "jshint-stylish": "2.x.x",
+    "mocha": "2.x.x",
+    "compute-mean": "^3.0.0",
+    "compute-to-matrix": "^1.0.0",
+    "compute-variance": "^3.0.0"
+  },
+  "license": "MIT"
+}
