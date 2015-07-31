@@ -43,7 +43,7 @@ console.log( data );
 ``` javascript
 var toMatrix = require( 'compute-to-matrix' ),
 	mean = require( 'compute-mean' ),
-	stdev = require( 'compute-stdev' ),
+	variance = require( 'compute-variance' ),
 	data = require( 'datasets-michelson-speed-of-light' );
 
 var mat,
