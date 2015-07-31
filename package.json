@@ -1,6 +1,6 @@
 {
   "name": "datasets-michelson-speed-of-light",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Dataset from Michelson's speed of light measurements in 1879.",
   "author": {
     "name": "Athan Reines",
