@@ -94,7 +94,8 @@ $ node ./examples/index.js
 
 ## References
 
-* 	Dorsey, Ernest N. (1944). "The Velocity of Light." *Transactions of the American Philosophical Society*, Volume 34, Part 1, Pages 1-110, Table 22.
+*	Michelson, Albert A. (1882). "Experimental determination of the velocity of light made at the United States Naval Academy, Annapolis." *Astronomic Papers* __1__ 135–8. U.S. Nautical Almanac Office. (See Table 24.)
+* Dorsey, Ernest N. (1944). "The Velocity of Light." *Transactions of the American Philosophical Society*, Volume 34, Part 1, Pages 1-110, Table 22.
 
 
 
